@@ -11,7 +11,7 @@ class PartyPlanner {
 		if (this.guestList.length === 0) {
 			return 'Gotta add people to the guest list'
 		} else {
-			return `Welcome to the party ${this.guestList.join(', ')}`
+			return `Welcome to the party ${this.guestList.join(' and ')}`
 		}
 	}
 }
