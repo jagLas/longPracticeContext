@@ -4,7 +4,8 @@ class Car {
 		this.speed = 0;
 	}
 
-	drive = newSpeed => this.speed = newSpeed;
+	drive(newSpeed) {
+		return this.speed = newSpeed;}
 }
 
 /*****************************************************************************/
