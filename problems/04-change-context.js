@@ -1,5 +1,15 @@
 function changeContext(func, obj) {
-  // Your code here
+  return func.call(obj);
+}
+
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+function extractName() {
+  return this.name;
 }
 
 /*****************************************************************************/
